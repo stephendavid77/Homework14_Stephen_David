@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image("myFavoritePlace")
+            Image("favoritePlace")
                 .resizable()
                 .scaledToFit()
                 .scaleEffect(scale)
